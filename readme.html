@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>عن المشروع | رحلة صناعة كرة القدم</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<style>
+.doc{max-width:820px;margin:auto;padding:3rem 5%}
+.doc h1{font-size:2.2rem;margin-bottom:.5rem}
+.doc h2{margin-top:2.5rem}
+.doc ul,.doc ol{padding-inline-start:1.4rem;margin-bottom:1rem}
+.doc img{max-width:100%;border:1px solid var(--chalk);border-radius:8px;margin:.5rem 0 1.5rem}
+.doc img.m{max-width:260px}
+pre{background:var(--pitch);color:#fff;padding:1rem;border-radius:8px;overflow-x:auto;direction:ltr;text-align:left;line-height:1.7}
+code{background:#ece9df;padding:.1rem .4rem;border-radius:4px;direction:ltr;unicode-bidi:embed}
+pre code{background:none;padding:0}
+</style>
+</head>
+<body>
+<header class="top">
+  <a href="index.html" class="logo">رحلة الكرة</a>
+  <nav><a href="index.html">الرئيسية</a><a href="readme.html">عن المشروع</a></nav>
+</header>
+
+<article class="doc">
+  <h1>رحلة صناعة كرة القدم ⚽</h1>
+  <p class="lead">موقع تعريفي تفاعلي يعرض رحلة صانع كرات قدم، من اختيار المواد الخام حتى تصبح الكرة جاهزة للمباراة.</p>
+
+  <h2>شكل الموقع</h2>
+  <img src="media/preview-hero.png" alt="الصفحة الرئيسية">
+  <img src="media/preview-full.png" alt="الموقع كاملًا">
+  <img class="m" src="media/preview-mobile.png" alt="نسخة الجوال">
+
+  <h2>أقسام الموقع</h2>
+  <ul>
+    <li><b>التعريف بالصانع:</b> نبذة عن الصانع ومهنته.</li>
+    <li><b>المواد والأدوات:</b> ما يستخدمه الصانع في عمله.</li>
+    <li><b>مراحل الصناعة:</b> التصميم، القص، الطباعة، التجميع، التركيب الداخلي، النفخ والاختبار.</li>
+    <li><b>الصور والفيديو:</b> أماكن مخصصة لوسائطك.</li>
+    <li><b>فحص الجودة:</b> المحيط، الوزن، الضغط، الارتداد.</li>
+    <li><b>صمّم كرتك:</b> اختيار ألوان الكرة أو تصاميم جاهزة.</li>
+    <li><b>اختبر معلوماتك:</b> ٦ أسئلة مع نتيجة نهائية.</li>
+  </ul>
+
+  <h2>الملفات</h2>
+<pre><code>index.html   هيكل الصفحة
+readme.html  صفحة عن المشروع
+style.css    التصميم
+script.js    رسم الكرة والمصمم والاختبار
+README.md    ملف GitHub</code></pre>
+
+  <h2>التشغيل</h2>
+  <p>افتح <code>index.html</code> في المتصفح مباشرة، ولا يحتاج إلى تثبيت أي شيء.</p>
+
+  <h2>النشر على GitHub Pages</h2>
+  <ol>
+    <li>ارفع الملفات إلى مستودع جديد.</li>
+    <li>من Settings ثم Pages اختر الفرع <code>main</code> والمجلد <code>/ (root)</code>.</li>
+    <li>سيظهر رابط موقعك خلال دقائق، وتجد هذه الصفحة على <code>/readme.html</code>.</li>
+  </ol>
+
+  <h2>التخصيص</h2>
+  <ul>
+    <li>غيّر اسم الصانع ونبذته في قسم الصانع داخل <code>index.html</code>.</li>
+    <li>أضف صورك في مجلد <code>media</code> واستبدل مربعات الصور بوسم <code>&lt;img&gt;</code>.</li>
+    <li>أضف الفيديو داخل وسم <code>&lt;video&gt;</code>.</li>
+    <li>عدّل أسئلة الاختبار من مصفوفة <code>questions</code> في <code>script.js</code>.</li>
+  </ul>
+
+  <p class="note">أرقام فحص الجودة تقريبية لكرة مقاس ٥، ويُفضّل التأكد منها من مصدر رسمي.</p>
+</article>
+<footer>مشروع مدرسي عن صناعة كرة القدم</footer>
+</body>
+</html>
